@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Select Program</title>
+
+      <!-- Links -->
+      <link rel="icon" href="../favicon.ico" sizes="32x32" type="image/png" />
+      <script src="https://cdn.tailwindcss.com"></script>
+      <link rel="stylesheet" href="../dist/css/all.css" />
+
+      <!-- UIkit CSS -->
+      <link
+         rel="stylesheet"
+         href="https://cdn.jsdelivr.net/npm/uikit@3.11.1/dist/css/uikit.min.css"
+      />
+
+      <!-- UIkit JS -->
+      <script src="https://cdn.jsdelivr.net/npm/uikit@3.11.1/dist/js/uikit.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/uikit@3.11.1/dist/js/uikit-icons.min.js"></script>
+
+      <!-- Box icons -->
+      <link
+         href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+         rel="stylesheet"
+      />
+   </head>
+   <body class="">
+      <div class="container mx-auto p-10 xl:pt-16">
+         <div class="">
+            <a href="../" class="text-black text-lg hover:no-underline"
+               ><i class="bx bxs-chevron-left float-left py-1"></i>Back</a
+            >
+            <div class="float-right text-blue font-bold text-lg">
+               MASTERS IN EDUCATION
+            </div>
+            <div class="mt-10">
+               <div class="font-bold text-blue text-2xl mb-7">
+                  LIST OF SECTIONS
+               </div>
+               <div class=" ">
+                  <ul uk-accordion class="">
+                     <li class="uk-open bg-gray-50 rounded-b-lg shadow-md">
+                        <a
+                           class="uk-accordion-title bg-blue p-4 rounded-t-lg text-sm text-white hover:text-white"
+                           href="#"
+                           >Section 1</a
+                        >
+                        <div class="uk-accordion-content px-7 pb-6">
+                           <div class="flex flex-col">
+                              <div class="overflow-x-auto sm:-mx-6">
+                                 <div
+                                    class="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8"
+                                 >
+                                    <div
+                                       class="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg"
+                                    >
+                                       <table
+                                          class="table-auto min-w-full divide-y divide-gray-200"
+                                       >
+                                          <thead class="tb-head">
+                                             <tr>
+                                                <th
+                                                   scope="col"
+                                                   class="px-6 py-3 text-left text-sm font-medium text-white uppercase tracking-wider"
+                                                >
+                                                   Subject Code
+                                                </th>
+
+                                                <th
+                                                   scope="col"
+                                                   class="px-6 py-3 text-left text-sm font-medium text-white uppercase tracking-wider"
+                                                >
+                                                   Description
+                                                </th>
+
+                                                <th
+                                                   scope="col"
+                                                   class="px-6 py-3 text-left text-sm font-medium text-white uppercase tracking-wider"
+                                                >
+                                                   Units
+                                                </th>
+
+                                                <th
+                                                   scope="col"
+                                                   class="px-6 py-3 text-left text-sm font-medium text-white uppercase tracking-wider"
+                                                >
+                                                   Day and Time
+                                                </th>
+
+                                                <th
+                                                   scope="col"
+                                                   class="px-6 py-3 text-left text-sm font-medium text-white uppercase tracking-wider"
+                                                >
+                                                   Professor
+                                                </th>
+                                             </tr>
+                                          </thead>
+                                          <tbody
+                                             class="bg-white divide-y divide-gray-400"
+                                          >
+                                             <tr>
+                                                <td
+                                                   class="px-2 whitespace-nowrap"
+                                                >
+                                                   <div
+                                                      class="flex items-center"
+                                                   >
+                                                      <div class="ml-4">
+                                                         <div
+                                                            class="text-sm font-medium text-gray-900"
+                                                         >
+                                                            CODE 123
+                                                         </div>
+                                                      </div>
+                                                   </div>
+                                                </td>
+                                                <td
+                                                   class="px-6 py-3 whitespace-nowrap"
+                                                >
+                                                   <div
+                                                      class="text-sm text-gray-900"
+                                                   >
+                                                      Subject 1 Description
+                                                      Sample
+                                                   </div>
+                                                   <!-- <div class="text-sm text-gray-500">
+                                    Optimization
+                                 </div> -->
+                                                </td>
+
+                                                <td
+                                                   class="px-6 py-3 whitespace-nowrap"
+                                                >
+                                                   <div
+                                                      class="text-sm text-gray-900"
+                                                   >
+                                                      5
+                                                   </div>
+                                                </td>
+
+                                                <!-- <td class="px-6 py-3 whitespace-nowrap">
+                                 <span
+                                    class="px-2 inline-flex text-sm leading-5 font-semibold rounded-full bg-green-100 text-green-800"
+                                 >
+                                    Active
+                                 </span>
+                              </td> -->
+                                                <td
+                                                   class="px-6 py-3 whitespace-nowrap text-sm text-gray-900"
+                                                >
+                                                   Tuesday & Friday
+                                                   <div
+                                                      class="text-sm text-gray-500"
+                                                   >
+                                                      11:30 am - 12:00 pm
+                                                   </div>
+                                                </td>
+
+                                                <td
+                                                   class="px-6 py-3 whitespace-nowrap"
+                                                >
+                                                   <div
+                                                      class="text-sm text-gray-900"
+                                                   >
+                                                      Professor 1 Full name
+                                                   </div>
+                                                </td>
+                                             </tr>
+
+                                             <!-- More people... -->
+                                          </tbody>
+                                       </table>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </li>
+
+                     <li class="bg-gray-50 rounded-b-lg shadow-md">
+                        <a
+                           class="uk-accordion-title bg-blue p-4 rounded-t-lg text-sm text-white hover:text-white"
+                           href="#"
+                           >Section 2</a
+                        >
+                        <div class="uk-accordion-content px-7 pb-6">
+                           <div class="flex flex-col">
+                              <div class="overflow-x-auto sm:-mx-6">
+                                 <div
+                                    class="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8"
+                                 >
+                                    <div
+                                       class="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg"
+                                    >
+                                       <table
+                                          class="table-auto min-w-full divide-y divide-gray-200"
+                                       >
+                                          <thead class="tb-head">
+                                             <tr>
+                                                <th
+                                                   scope="col"
+                                                   class="px-6 py-3 text-left text-sm font-medium text-white uppercase tracking-wider"
+                                                >
+                                                   Subject Code
+                                                </th>
+
+                                                <th
+                                                   scope="col"
+                                                   class="px-6 py-3 text-left text-sm font-medium text-white uppercase tracking-wider"
+                                                >
+                                                   Description
+                                                </th>
+
+                                                <th
+                                                   scope="col"
+                                                   class="px-6 py-3 text-left text-sm font-medium text-white uppercase tracking-wider"
+                                                >
+                                                   Units
+                                                </th>
+
+                                                <th
+                                                   scope="col"
+                                                   class="px-6 py-3 text-left text-sm font-medium text-white uppercase tracking-wider"
+                                                >
+                                                   Day and Time
+                                                </th>
+
+                                                <th
+                                                   scope="col"
+                                                   class="px-6 py-3 text-left text-sm font-medium text-white uppercase tracking-wider"
+                                                >
+                                                   Professor
+                                                </th>
+                                             </tr>
+                                          </thead>
+                                          <tbody
+                                             class="bg-white divide-y divide-gray-200"
+                                          >
+                                             <tr>
+                                                <td
+                                                   class="px-2 whitespace-nowrap"
+                                                >
+                                                   <div
+                                                      class="flex items-center"
+                                                   >
+                                                      <div class="ml-4">
+                                                         <div
+                                                            class="text-sm font-medium text-gray-900"
+                                                         >
+                                                            CODE 123
+                                                         </div>
+                                                      </div>
+                                                   </div>
+                                                </td>
+                                                <td
+                                                   class="px-6 py-3 whitespace-nowrap"
+                                                >
+                                                   <div
+                                                      class="text-sm text-gray-900"
+                                                   >
+                                                      Subject 1 Description
+                                                      Sample
+                                                   </div>
+                                                   <!-- <div class="text-sm text-gray-500">
+                                    Optimization
+                                 </div> -->
+                                                </td>
+
+                                                <td
+                                                   class="px-6 py-3 whitespace-nowrap"
+                                                >
+                                                   <div
+                                                      class="text-sm text-gray-900"
+                                                   >
+                                                      5
+                                                   </div>
+                                                </td>
+
+                                                <!-- <td class="px-6 py-3 whitespace-nowrap">
+                                 <span
+                                    class="px-2 inline-flex text-sm leading-5 font-semibold rounded-full bg-green-100 text-green-800"
+                                 >
+                                    Active
+                                 </span>
+                              </td> -->
+                                                <td
+                                                   class="px-6 py-3 whitespace-nowrap text-sm text-gray-900"
+                                                >
+                                                   Tuesday & Friday
+                                                   <div
+                                                      class="text-sm text-gray-500"
+                                                   >
+                                                      11:30 am - 12:00 pm
+                                                   </div>
+                                                </td>
+
+                                                <td
+                                                   class="px-6 py-3 whitespace-nowrap"
+                                                >
+                                                   <div
+                                                      class="text-sm text-gray-900"
+                                                   >
+                                                      Professor 1 Full name
+                                                   </div>
+                                                </td>
+                                             </tr>
+
+                                             <tr>
+                                                <td
+                                                   class="px-2 whitespace-nowrap"
+                                                >
+                                                   <div
+                                                      class="flex items-center"
+                                                   >
+                                                      <div class="ml-4">
+                                                         <div
+                                                            class="text-sm font-medium text-gray-900"
+                                                         >
+                                                            CODE 123
+                                                         </div>
+                                                      </div>
+                                                   </div>
+                                                </td>
+                                                <td
+                                                   class="px-6 py-3 whitespace-nowrap"
+                                                >
+                                                   <div
+                                                      class="text-sm text-gray-900"
+                                                   >
+                                                      Subject 1 Description
+                                                      Sample
+                                                   </div>
+                                                   <!-- <div class="text-sm text-gray-500">
+                                    Optimization
+                                 </div> -->
+                                                </td>
+
+                                                <td
+                                                   class="px-6 py-3 whitespace-nowrap"
+                                                >
+                                                   <div
+                                                      class="text-sm text-gray-900"
+                                                   >
+                                                      5
+                                                   </div>
+                                                </td>
+
+                                                <!-- <td class="px-6 py-3 whitespace-nowrap">
+                                 <span
+                                    class="px-2 inline-flex text-sm leading-5 font-semibold rounded-full bg-green-100 text-green-800"
+                                 >
+                                    Active
+                                 </span>
+                              </td> -->
+                                                <td
+                                                   class="px-6 py-3 whitespace-nowrap text-sm text-gray-900"
+                                                >
+                                                   Tuesday & Friday
+                                                   <div
+                                                      class="text-sm text-gray-500"
+                                                   >
+                                                      11:30 am - 12:00 pm
+                                                   </div>
+                                                </td>
+
+                                                <td
+                                                   class="px-6 py-3 whitespace-nowrap"
+                                                >
+                                                   <div
+                                                      class="text-sm text-gray-900"
+                                                   >
+                                                      Professor 1 Full name
+                                                   </div>
+                                                </td>
+                                             </tr>
+
+                                             <!-- More people... -->
+                                          </tbody>
+                                       </table>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>

@@ -1,0 +1,15 @@
+#pieStatus {
+   height: 325px !important;
+   width: 350px !important;
+}
+
+#barStudent {
+   height: 350px !important;
+}
+
+.stat-box:hover {
+   background-color: darkslategray;
+   transition: 0.6s;
+   text-decoration: none;
+   color: white;
+}

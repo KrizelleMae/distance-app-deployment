@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans');
+
+
+* {
+  font-family: "Open Sans";
+  margin: 0;
+  transition: 0.3s ease-in-out;
+}
+/* 
+.img-side::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  opacity: 0.4;
+  background: linear-gradient(225deg, skyblue, #a20202);
+  z-index: 1;
+  mix-blend-mode: screen;
+} */
+
+.img-side {
+  opacity: 0.9;
+}
+
+.side-image {
+  height: 100%;
+  width: 100%;
+}
+
+.bg-blue {
+  background: darkslategrey;
+}
+
+.tb-head {
+  background: darkslategray;
+}
+
+.text-blue {
+  color: darkslategray;
+}
+
+.logoside {
+  height: 250px;
+}
+
+.content {
+  margin: 0px 70px;
+}
+
+.text-crimson {
+  color: #a20202;
+}
+
+.bg-crimson {
+  background-color: #a20202;
+}
